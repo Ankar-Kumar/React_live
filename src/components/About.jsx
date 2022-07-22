@@ -1,5 +1,5 @@
 import React from 'react'
-import pizza from '../components/img/pizza.png'
+import pizza from '../components/img/pizza.jpg'
 export default function About() {
   return (
     <div>
