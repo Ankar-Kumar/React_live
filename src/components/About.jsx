@@ -1,5 +1,5 @@
 import React from 'react'
-
+import pizza from '../components/img/pizza.png'
 export default function About() {
   return (
     <div>
@@ -17,7 +17,7 @@ export default function About() {
                 </div>
                 </div>
                 <div className="col-6">
-                    <img src="/img/pizza.jpg" className='about__img' alt="gfer" />
+                    <img src={pizza} className='about__img' alt="gfer" />
                 </div>
                 </div>
             </div>

@@ -1,4 +1,5 @@
 import React from 'react'
+import pizza from '../components/img/pizza.png'
 
 export default function Menu() {
   return (
@@ -8,7 +9,7 @@ export default function Menu() {
                 <div className="row">
                   
                 <div className="col-6">
-                    <img src="/img/pizza.jpg" className='about__img' alt="gfer" />
+                    <img src={pizza} className='about__img' alt="gfer" />
                 </div> 
                   <div className="col-6 p-25">
                     <h3>The Pizza Menu</h3>

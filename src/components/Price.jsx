@@ -1,5 +1,10 @@
 import React from 'react'
-
+import pizza1 from '../components/img/pizza1.png'
+import pizza2 from '../components/img/pizza2.png'
+import pizza3 from '../components/img/pizza3.png'
+import pizza4 from '../components/img/pizza4.png'
+import pizza5 from '../components/img/pizza5.png'
+import pizza6 from '../components/img/pizza6.png'
 function Price() {
   return (
     <div>
@@ -9,7 +14,7 @@ function Price() {
                     <div className="col-4">
                         <div className="price">
                             <div className="price__img">
-                                <img src="/img/pizza1.png" alt="pizza" />
+                                <img src={pizza1} alt="pizza" />
                             </div>
                             <h1 className="price__heading">
                                 Pizza Margeriitta
@@ -23,7 +28,7 @@ function Price() {
                     <div className="col-4">
                         <div className="price">
                             <div className="price__img">
-                                <img src="/img/pizza2.png" alt="pizza" />
+                                <img src={pizza6} alt="pizza" />
                             </div>
                             <h1 className="price__heading">
                                 Pizza Margeriitta
@@ -37,7 +42,7 @@ function Price() {
                     <div className="col-4">
                         <div className="price">
                             <div className="price__img">
-                                <img src="/img/pizza3.png" alt="pizza" />
+                                <img src={pizza2} alt="pizza" />
                             </div>
                             <h1 className="price__heading">
                                 Pizza Margeriitta
@@ -53,7 +58,7 @@ function Price() {
                     <div className="col-4">
                         <div className="price">
                             <div className="price__img">
-                                <img src="/img/pizza4.png" alt="pizza" />
+                                <img src={pizza3} alt="pizza" />
                             </div>
                             <h1 className="price__heading">
                                 Pizza Margeriitta
@@ -67,7 +72,7 @@ function Price() {
                     <div className="col-4">
                         <div className="price">
                             <div className="price__img">
-                                <img src="/img/pizza5.png" alt="pizza" />
+                                <img src={pizza4} alt="pizza" />
                             </div>
                             <h1 className="price__heading">
                                 Pizza Margeriitta
@@ -81,7 +86,7 @@ function Price() {
                     <div className="col-4">
                         <div className="price">
                             <div className="price__img">
-                                <img src="/img/pizza6.png" alt="pizza" />
+                                <img src={pizza5} alt="pizza" />
                             </div>
                             <h1 className="price__heading">
                                 Pizza Margeriitta
